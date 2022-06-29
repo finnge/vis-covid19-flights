@@ -3610,6 +3610,10 @@ Transform.prototype;
 
 const graphWrapper = select('[ data-js-graph]');
 
+//
+// BEGIN EXAMPLE D3 CODE
+//
+
 const margin = {
   top: 10, right: 40, bottom: 30, left: 30,
 };
@@ -3641,3 +3645,7 @@ const y = linear()
 graphSvg
   .append('g')
   .call(axisLeft(y));
+
+//
+// END EXAMPLE D3 CODE
+//
